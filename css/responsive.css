@@ -1,0 +1,685 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+    .productHero_content h1 {
+        font-size: 35px;
+    }
+    .productHero_content > p {
+        font-size: 18px;
+    }
+
+    .whyChooseDesktop_card > p {
+        font-size: 14px;
+    }
+    .productSecurity_area .productSecurity_alert {
+        font-size: 17px;
+        padding: 10px;
+    }
+
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.sendReceive_thumb > img {
+    margin-left: 0;
+}
+.control_wealth_content .control_wealth_inner {
+    padding-left: 20px;
+}
+
+.trueSelf_area {
+    padding-top: 50px;
+}
+.sendReceive_area > .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sendReceive_linearTop {
+    min-height: 50px;
+}
+
+.control_wealth_area {
+    padding-bottom: 100px;
+}
+.footer_social {
+    padding-bottom: 50px;
+}
+
+
+.footer_item h4,
+.footer_newsletter  {
+    margin-top: 20px;
+}
+
+.footer_social ul {
+	justify-content: center;
+}
+  .productHero_thumb > img {
+    display: block;
+    margin-top: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {	
+
+    .control_wealth_content {
+        flex-direction: column;
+    }
+    .control_wealth_content .control_wealth_inner {
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+
+    .sendReceive_thumb > img {
+        margin-left: 0;
+    }
+    .control_wealth_content .control_wealth_inner {
+        padding-left: 20px;
+    }
+    
+    .trueSelf_area {
+        padding-top: 50px;
+    }
+    .sendReceive_area > .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sendReceive_linearTop {
+        min-height: 50px;
+    }
+    
+    .control_wealth_area {
+        padding-bottom: 100px;
+    }
+    .footer_social {
+        padding-bottom: 50px;
+    }
+
+    .footer-heading {
+        margin-top: 50px;
+    }
+
+.chromeExtension_img > ul {
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+
+.footer_item h4,
+.footer_newsletter  {
+    margin-top: 20px;
+}
+
+.footer_social ul {
+	justify-content: center;
+}
+.contactUsForm_row {
+    padding: 80px 12px;
+}
+
+
+.contactUsForm_row {
+    padding: 80px 12px;
+}
+
+
+
+/* ------------------------- */
+    .productHero_content h1 {
+        font-size: 35px;
+    }
+    .productHero_content > p {
+        font-size: 18px;
+    }
+
+    .whyChooseDesktop_card > p {
+        font-size: 14px;
+    }
+    .productSecurity_area .productSecurity_alert {
+        font-size: 17px;
+        padding: 10px;
+    }
+    .productHero_thumb > img {
+        display: block;
+        margin-top: 50px;
+    }
+  
+  .productHowitWork_area .col-md-5 {
+        width: 50%;
+    }
+.productHowitWork_area .whyChooseDesktop_card > span {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    top: -10px;
+    left: -10px;
+}
+.product_titlebar > h2 {
+    font-size: 25px;
+}
+.product_titlebar > p {
+    font-size: 16px;
+}
+.product_titlebar > p br {
+    display: none;
+}
+.productHero_content > ul li a,
+.controlCrypto_content >ul li a {
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 100px;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.productHero_content > ul {
+    gap: 10px;
+}
+.productHero_area {
+	padding-top: 100px;
+}
+.whyChooseDesktop_area,
+.productSecurity_area {
+	padding-top: 80px;
+}
+.productHowitWork_area {
+    margin-top: 80px;
+}
+.backupRecovery_header p br {
+    display: none;
+}
+.backupRecovery_header h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.backupRecovery_header.supported > h6 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.backupRecovery_header p {
+    font-size: 16px;
+}
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 575px) {
+
+
+
+    .control_wealth_content {
+        flex-direction: column;
+    }
+    .control_wealth_content .control_wealth_inner {
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+
+    .sendReceive_thumb > img {
+        margin-left: 0;
+    }
+    .control_wealth_content .control_wealth_inner {
+        padding-left: 20px;
+    }
+    
+    .trueSelf_area {
+        padding-top: 50px;
+    }
+    .sendReceive_area > .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .sendReceive_linearTop {
+        min-height: 50px;
+    }
+    
+    .control_wealth_area {
+        padding-bottom: 100px;
+    }
+    
+
+    .hero_content > h1 {
+        font-size: 35px;
+    }
+    .hero_content > p {
+        font-size: 17px;
+    }
+    .hero_content > button {
+        font-size: 16px;
+        max-width: 300px;
+        min-height: 55px;
+        border-radius: 100px;
+        background: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 0;
+        margin: 0 auto;
+        transition: 0.3s;
+        margin-top: 25px;
+    }
+    .hero_content {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+
+    .control_wealth_inner > h2,
+    .secureWallet_header > h2,
+    .title_lg {
+        font-size: 30px;
+    }
+
+    .control_wealth_inner > p {
+        font-size: 16px;
+    }
+    .control_wealth_inner > ul {
+        flex-wrap: wrap;
+    }
+
+    .secureWallet_header > p {
+        font-size: 16px;
+    }
+    .secureWallet_header > p span.two {
+        font-size: 20px;
+    }
+
+    .secureWallet_area {
+        padding-bottom: 10px;
+    }
+
+    .sendReceive_content ul li div h4,
+    .trueSelf_content ul li div h4 {
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 112%;
+    }
+
+    .craftedEveryone_card > p {
+        color: #C2C2C2;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 112%;
+    }
+
+    .craftedEveryone_card {
+        min-height: auto;
+    }
+    .support_header > p {
+        font-size: 18px;
+    }
+    .footer_note p {
+        font-size: 16px;
+    }
+    .footer_social {
+        flex-wrap: wrap-reverse;
+        gap: 20px;
+        padding-bottom: 30px;
+    }
+
+
+    .custom-footer {
+        padding-top: 0 !important;
+    }
+    .footer-heading {
+        margin-top: 50px;
+    }
+
+    .faq_title > h2 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 50px;
+    }
+    .faq_area .accordion-button {
+        font-size: 16px;
+        padding: 15px;
+    }
+    .faq_area .accordion-button img {
+        width: 30px;
+    }
+.faq_area .accordion-body {
+    font-size: 16px;
+}
+
+.faq_wrapper > img.bg_overlay {
+    position: absolute;
+    top: -50px;
+    left: -300px;
+    z-index: 1;
+    min-width: 1200px;
+    height: 700px;
+}
+.faq_area {
+    padding-bottom: 50px;
+}
+.chromeExtension_img > ul {
+	position: absolute;
+	top: 45%;
+	left: 5%;
+}
+.chromeExtension_img.control_wealth_inner > ul li a {
+	font-size: 14px;
+	font-weight: 700;
+	border-radius: 10px;
+	background: #232136;
+	display: block;
+	width: fit-content;
+	padding: 10px;
+	transition: 0.3s;
+	cursor: no-drop;
+}
+.chromeExtension_img.control_wealth_inner > ul li a small {
+    font-size: 10px;
+}
+.chromeExtension_img.control_wealth_inner > ul li a img {
+    width: 20px;
+}
+.footer_logo {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.footer_item h4,
+.footer_newsletter  {
+    margin-top: 20px;
+}
+.footer_social ul {
+	justify-content: center;
+}
+
+.contactUsForm_row {
+    padding: 50px 10px;
+}
+.contactUsForm_left > ul {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	margin-bottom: 30px;
+	margin-left: 0;
+}
+.contactUsForm_row  .col-lg-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.contactUsForm_left > h2  {
+    font-size: 22px;
+}
+.contactUsForm_left > p {
+    font-size: 16px;
+}
+.contactUsForm_left > ul li h4 {
+    font-size: 20px;
+}
+.contactUsForm_left > ul li span {
+    font-size: 18px;
+}
+
+.termsService_content_wrapper {
+	padding: 50px 12px;
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+.termsService_header > h2,
+.termsService_body .item h4 {
+	font-size: 22px;
+}
+
+.termsService_header > span,
+.termsService_header > p,
+.termsService_body .item p {
+	color: #FFF;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.termsService_body .item ul li {
+    font-size: 16px;
+}
+.termsService_body .item ul {
+    padding-left: 10px;
+}
+
+
+.ourMission_header > a {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 134.588%;
+	border-radius: 15px;
+	padding: 15px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+.ourMission_header > p,
+.aboutUsHero_content > p {
+    font-size: 16px;
+}
+.ourMission_header > h2,
+.aboutUsHero_content > h2 {
+    font-size: 35px;
+}
+.contactUs_header > p {
+    font-size: 18px;
+}
+.contactUs_header > h2 {
+    font-size: 25px;
+}
+.aboutUsForm_content.contactUsForm_right .form_input textarea {
+    min-height: 200px !important;
+}
+
+
+
+
+
+/* ------------------------- */
+    .productHero_content h1 {
+        font-size: 35px;
+    }
+       .productHero_content h1 br {
+        display: none;
+       }
+    .productHero_content > p {
+        font-size: 18px;
+    }
+
+    .whyChooseDesktop_card > p {
+        font-size: 14px;
+    }
+    .productSecurity_area .productSecurity_alert {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .productHero_thumb > img {
+        display: block;
+        margin-top: 50px;
+    }
+  
+  .productHowitWork_area .col-md-5 {
+        width: 100%;
+        margin-top: 15px !important;
+    }
+.productHowitWork_area .whyChooseDesktop_card > span {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    top: -10px;
+    left: -10px;
+}
+.product_titlebar > h2 {
+    font-size: 25px;
+}
+.product_titlebar > p {
+    font-size: 16px;
+}
+.product_titlebar > p br {
+    display: none;
+}
+.productHero_content > ul li a,
+.controlCrypto_content >ul li a {
+	font-size: 16px;
+	font-weight: 700;
+	border-radius: 100px;
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.productHero_content > ul {
+    gap: 10px;
+}
+.productHero_area {
+	padding-top: 100px;
+}
+.whyChooseDesktop_area,
+.productSecurity_area {
+	padding-top: 80px;
+}
+.productHowitWork_area {
+    margin-top: 80px;
+}
+.footer_area {
+    padding: 50px 0;
+}
+
+.footer_newsletter > h4 {
+	font-family: "Inter", sans-serif;
+	color: #FFF;
+	font-size: 23px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.footer_item > h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer_item > ul {
+    gap: 20px;
+}
+
+.footer_para p {
+	color: #B5B5B5;
+	font-size: 14px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	margin-top: 35px;
+}
+.footer_para > ul li a {
+    font-size: 14px;
+}
+
+
+.whySwap_header > h2 br {
+    display: none;
+}
+.whySwap_header > h2 {
+    font-size: 35px;
+}
+.whySwap_header > p {
+    font-size: 16px;
+}
+.whySwap_content_title > h3 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.swapWork_title > h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.howWeDo_card > h2 {
+    font-size: 30px;
+}
+.howWeDo_card > p,
+.sap_link > p {
+    font-size: 16px;
+}
+.swapWork_card {
+    min-height: 150px;
+}
+.backupRecovery_header h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.backupRecovery_header p {
+    font-size: 17px;
+}
+.backupRecovery_card > h3 {
+    font-size: 25px;
+}
+.backupRecovery_card > p {
+    font-size: 17px;
+}
+.backupRecovery_card > h6 {
+    font-size: 20px;
+}
+.backupRecovery_header.supported > h6 {
+	font-size: 22px;
+	margin-bottom: 15px;
+}
+.backupRecovery_card.supported > h2 {
+    font-size: 22px;
+    align-items: start;
+}
+.backupRecovery_card.supported .note-text {
+    font-size: 16px;
+}
+.backupRecovery_card.supported > p {
+    font-size: 16px;
+}
+.backupRecovery_card > span {
+    font-size: 17px;
+}
+.backupRecovery_card .invisible {
+    margin-top: 0;
+}
+
+
+/* update css here */
+.whySwap_header {
+	padding: 70px 0;
+}
+.whySwap_header > p br {
+    display: none;
+}
+.backupRecovery_header {
+    padding: 50px 0;
+}
+
+}

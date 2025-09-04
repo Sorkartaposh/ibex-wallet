@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<!-- Meta setup -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="keywords" content="">
+		<meta name="decription" content="">
+		<meta name="designer" content="">
+		
+		<!-- Title -->
+		<title>Home - IBEX</title>
+		
+		<!-- Fav Icon -->
+		<link rel="icon" href="images/favicon.ico">
+		
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+		<!-- Include Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+
+		<!-- css plugin -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+		<!-- Main StyleSheet -->
+		<link rel="stylesheet" href="style.css">	
+		
+		<!-- Responsive CSS -->
+		<link rel="stylesheet" href="css/responsive.css">	
+		
+	</head>
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+		<div class="hero_bg">
+			<!-- header-area start -->	
+			<header class="header_area">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="header_logo d-flex align-items-center justify-content-between">
+								<a href="./index.html"><img src="images/logo/logo.png" alt=""></a>
+								<button type="button" class="hamburger d-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"><i class="fa-solid fa-bars"></i></button>
+							</div>
+						</div>
+						<div class="col-lg-8 d-none d-lg-block">
+							<div class="header_menu_wrapper">
+								<div class="dropdown">
+									<button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										features
+										<img src="images/icon/arrow_bottom.svg" alt="">
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+									<li><a class="dropdown-item" href="./swap.html">swap</a></li>
+									<li><a class="dropdown-item" href="./Backup-Recovery.html">Backup & recovery</a></li>
+									<li><a class="dropdown-item" href="./Supported.html">Supported pair</a></li>
+									</ul>
+								</div>
+								<div class="dropdown">
+									<button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										Product
+										<img src="images/icon/arrow_bottom.svg" alt="">
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+									<li><a class="dropdown-item" href="./product.html">Desktop Wallet</a></li>
+									<li><a class="dropdown-item" href="./product-2.html">Mobile Wallet</a></li>
+									<li><a class="dropdown-item" href="https://web.styxwallet.com/">Web Wallet</a></li>
+									</ul>
+								</div>
+								<div class="dropdown">
+									<button type="button" id="dropdownMenuButton1" onclick="location.href='./contact-us.html'">
+										Support
+									</button>
+								</div>
+								<div class="dropdown">
+									<button onclick="location.href='./faq.html'" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										FAQ 
+									</button>
+								</div>
+								<button type="button" class="download_btn" onclick="downloadApplication()"><img src="images/icon/download.svg" alt=""> Download</button>
+							</div>
+						</div>						
+					</div>					
+				</div>
+			</header>	
+			<!-- header-area end -->
+
+			<!-- offcanvas start  -->
+			<div class="offcanvas sidebar offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+				<div class="offcanvas-header">
+				  <h5 class="offcanvas-title" id="offcanvasExampleLabel"><img onclick="location.href='./index.html'" style="width: 150px;" src="images/logo/logo.png" alt=""></h5>
+				  <button type="button" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+				</div>
+				<div class="offcanvas-body">
+					<div class="header_menu_wrapper">
+						<div class="dropdown">
+									<button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+										features
+										<img src="images/icon/arrow_bottom.svg" alt="">
+									</button>
+									<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+									<li><a class="dropdown-item" href="./swap.html">swap</a></li>
+									<li><a class="dropdown-item" href="./Backup-Recovery.html">Backup & recovery</a></li>
+									<li><a class="dropdown-item" href="./Supported.html">Supported pair</a></li>
+									</ul>
+						</div>
+						<div class="dropdown">
+							<button type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								Product
+								<img src="images/icon/arrow_bottom.svg" alt="">
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							<li><a class="dropdown-item" href="./product.html">desktop wallet</a></li>
+							<li><a class="dropdown-item" href="./product-2.html">mobile wallet</a></li>
+							</ul>
+						</div>
+						<div class="dropdown">
+							<button type="button" id="dropdownMenuButton1" onclick="location.href='./contact-us.html'">
+								Support
+							</button>
+						</div>
+						<div class="dropdown">
+							<button onclick="location.href='./faq.html'" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								FAQ 
+							</button>
+						</div>
+						<button type="button" class="download_btn" onclick="downloadApplication()"><img src="images/icon/download.svg" alt=""> Download</button>
+					</div>
+				</div>
+			</div>
+			<!-- offcanvas end  -->
+	
+			<!-- Hero-area start -->
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="hero_content">
+								<h1>IBEX Bitcoin & Crypto Wallet</h1>
+								<p>Trading in cryptocurrency assets carries substantial risk and may not be appropriate for all investors. The value of crypto assets is highly volatile and subject to significant fluctuations within short time frames. Potential investors should thoroughly assess their financial objectives, risk appetite, and overall financial circumstances before engaging in cryptocurrency trading.</p>
+								<div class="hero_thumb">
+									<img class="thumb" src="images/thumb/thumb2.png" alt="">
+									<img class="hero_overlay" src="images/thumb/thumb10.png" alt="">
+								</div>
+								<button type="button" onclick="downloadApplication()"><i class="fa-brands fa-windows"></i> Download IBEX For Windows</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>		
+			<!-- Hero-area end -->	
+		</div>	
+
+		<!-- control_wealth area start -->
+		<section class="control_wealth_area">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="control_wealth_content">
+							<img class="mobileApp_img" src="images/thumb/thumb3.png" alt="">
+							<div class="control_wealth_inner">
+								<h2>Mobile <span>– Control your wealth anywhere</span></h2>
+								<p>Access your crypto securely on iOS and Android. Manage your assets, trade, and stay connected to your digital wealth—no matter where you are.</p>
+								<ul>
+									<li><a href="#"><img src="images/icon/apple_store.svg" alt=""> Apple Store <small>Coming Soon</small></a></li>
+									<li><a href="#"><img src="images/icon/play_store.svg" alt=""> Play Store <small>Coming Soon</small></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- control_wealth area end -->	
+
+		<!-- secureWallet area start -->
+		<section class="secureWallet_area">
+			<div class="container">
+				<div class="secureWallet_header">
+					<h2 class="title_lg">Millions of Assets, <span>One Secure Wallet</span></h2>
+					<p><span class="one">IBEX Wallet</span> Where Crypto Flows Smoothly Millions trust IBEX to secure and grow their crypto across <span class="two">50+</span> chains.</p>
+				</div>
+			</div>
+			<div class="secureWallet_bg">
+				<div class="container container1920">
+					<div class="row">
+						<div class="col-12">
+							<div class="supportedAssets_slider owl-carousel owl-theme">
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_matic.svg" alt=""></li>
+									<li><img src="images/icon/icon_trx.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_usdc.svg" alt=""></li>
+									<li><img src="images/icon/icon_doge.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_kava.svg" alt=""></li>
+									<li><img src="images/icon/icon_btc.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_eth.svg" alt=""></li>
+									<li><img src="images/icon/icon_the.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_xrp.svg" alt=""></li>
+									<li><img src="images/icon/icon_sol.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_bnb.svg" alt=""></li>
+									<li><img src="images/icon/icon_hbar.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_atom.svg" alt=""></li>
+									<li><img src="images/icon/icon_shib.svg" alt=""></li>
+								</ul>
+								<ul class="coin_list">
+									<li><img src="images/icon/icon_eth.svg" alt=""></li>
+									<li><img src="images/icon/icon_the.svg" alt=""></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!-- secureWallet area end -->	
+
+		<!-- sendReceive area start -->
+		<section class="sendReceive_area">
+			<div class="sendReceive_linearTop"></div>
+			<div class="container">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-lg-5 order-2 order-lg-1">
+						<div class="sendReceive_content">
+							<h2 class="title_lg"><span>Send & Receive</span> Digital Assets Instantly</h2>
+							<ul>
+								<li>
+									<img src="images/icon/sr1.svg" alt="">
+									<div>
+										<h4>Peer-to-peer</h4>
+										<span>Direct, secure transactions without intermediaries</span>
+									</div>
+								</li>
+								<li>
+									<img src="images/icon/sr2.svg" alt="">
+									<div>
+										<h4>Universal compatibility</h4>
+										<span>Send and receive using addresses & QR codes</span>
+									</div>
+								</li>
+								<li>
+									<img src="images/icon/sr3.svg" alt="">
+									<div>
+										<h4>Lightning-fast</h4>
+										<span>Instant global transfers without borders</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-5 order-1 order-lg-2">
+						<div class="sendReceive_thumb">
+							<img src="images/thumb/thumb6.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!-- sendReceive area end -->	
+
+		<!-- trueSelf area start -->
+		<section class="trueSelf_area">
+			<div class="container">
+				<div class="row align-items-center justify-content-center">
+					<div class="col-lg-5">
+						<div class="trueSelf_thumb">
+							<img src="images/thumb/thumb7.png" alt="">
+						</div>
+					</div>
+					<div class="col-lg-5">
+						<div class="trueSelf_content">
+							<h2 class="title_lg"><span>True Self Custody.</span> Total Freedom.</h2>
+							<ul>
+								<li>
+									<img src="images/icon/tick.svg" alt="">
+									<div>
+										<h4>100% ownership</h4>
+										<span>No third-party control over your assets. Ever.</span>
+									</div>
+								</li>
+								<li>
+									<img src="images/icon/tick.svg" alt="">
+									<div>
+										<h4>No sign-ups</h4>
+										<span>Download and use instantly. No KYC, no bureaucracy.</span>
+									</div>
+								</li>
+								<li>
+									<img src="images/icon/tick.svg" alt="">
+									<div>
+										<h4>Encrypted & offline private key storage</h4>
+										<span>Your keys never leave your device, completely isolated from the internet.</span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!-- trueSelf area end -->	
+
+		<!-- craftedEveryone area start -->
+		<section class="craftedEveryone_area">
+			<div class="container">
+				<div class="craftedEveryone_header">
+					<h2 class="title_lg">Crafted for Everyone  <span>Simple, Intuitive, Powerful</span></h2>
+					<p>An interface so intuitive that beginners feel comfortable, yet powerful enough for experienced users.</p>
+				</div>
+				<div class="row g-lg-4 g-3 mt-0">
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Sleek & Simple</h4>
+							<p>A beautiful interface designed for clarity and ease of use, whether you're a crypto veteran or just getting started.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Smart Defaults</h4>
+							<p>A beautiful interface designed for clarity and ease of use, whether you're a crypto veteran or just getting started.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Grow with You</h4>
+							<p>From basic transactions to advanced DeFi and NFTs, IBEX evolves with your crypto journey.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- craftedEveryone area end -->	
+
+		<!-- support area start -->
+		<section class="support_area">
+			<div class="container">
+				<div class="support_header">
+					<h2 class="title_lg text-center">24/7 Support <span>We've Got Your Back</span></h2>
+					<img class="chatbox_img d-block mx-auto" src="images/thumb/thumb8.png" alt="">
+					<p>Technical issues? Questions? Our expert support team is ready to help you whenever you need it, day or night.</p>
+				</div>
+				<div class="row">
+					<div class="row g-lg-4 g-3 mt-0">
+						<div class="col-lg-4 col-md-6">
+							<div class="craftedEveryone_card support">
+								<img src="images/icon/ss1.svg" alt="">
+								<h4>Instant Help Desk</h4>
+								<p>Get immediate answers from our comprehensive knowledge base, with detailed guides and troubleshooting steps.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="craftedEveryone_card support">
+								<img src="images/icon/ss2.svg" alt="">
+								<h4>24/7 Live Support</h4>
+								<p>Chat with our experts anytime, anywhere. Our dedicated support team is always ready to help you resolve any issues.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="craftedEveryone_card support">
+								<img src="images/icon/ss3.svg" alt="">
+								<h4>Quick Resolution</h4>
+								<p>Most issues resolved within minutes. Our team is trained to provide fast and effective solutions to keep you moving.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- support area end -->	
+
+		<!-- controlFuture area start -->
+		<section class="controlFuture_area">
+			<div class="container">
+				<div class="craftedEveryone_header">
+					<h2 class="title_lg">Own Your Crypto, <span>Control Your Future</span></h2>
+					<p>The most secure and accessible gateway to DeFi & Web3.</p>
+				</div>
+				<div class="row g-lg-4 g-3 mt-0">
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Non-Custodial</h4>
+							<p>100% Self-Custody. No intermediaries, no exceptions—just absolute control over your crypto.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Unified Multi-Chain Access</h4>
+							<p>50+ ecosystems" builds more trust than vague "multiple chains.</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Unparalleled Security</h4>
+							<p>Military-grade encryption" builds more trust than generic "latest measures</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>One-Stop All-In-One <br> Platform</h4>
+							<p>Explicitly states what users can do (trade, earn, manage)</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Live Support</h4>
+							<p>Get instant help" vs passive "we are here"</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6">
+						<div class="craftedEveryone_card">
+							<h4>Complete Privacy</h4>
+							<p>True Financial Privacy" positions this as a core benefit</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- craftedEveryone area end -->	
+
+		<!-- buildCrypto area start -->	
+		<section class="support_area buildCrypto">
+			<div class="container">
+				<div class="support_header">
+					<h2 class="title_lg text-center">Bank-Grade Security, <span>Built for Crypto</span></h2>
+					<img class="chatbox_img d-block mx-auto" src="images/thumb/thumb9.png" alt="">
+					<p>Technical issues? Questions? Our expert support team is ready to help you whenever you need it, day or night.</p>
+				</div>
+				<div class="row g-3 g-lg-4 mt-0">
+					<div class="row g-lg-4 g-3 mt-0">
+						<div class="col-lg-4 col-md-6">
+							<div class="craftedEveryone_card support">
+								<img src="images/icon/bc1.svg" alt="">
+								<h4>Military-grade encryption</h4>
+								<p>AES-256 encryption—the same standard used by governments and military to secure classified information.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="craftedEveryone_card support">
+								<img src="images/icon/bc2.svg" alt="">
+								<h4>All data stays on your device</h4>
+								<p>Your private keys and sensitive information never leave your device. True offline security without compromise.</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="craftedEveryone_card support">
+								<img src="images/icon/bc3.svg" alt="">
+								<h4>No backdoors, no compromises</h4>
+								<p>Open-source code base, peer-reviewed and audited by leading security experts. Complete transparency.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- buildCrypto area end -->
+
+		<!-- footer area start -->	
+		<footer class="footer_area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="row m-0 g-0">
+							<div class="col-lg-4">
+								<div class="footer_item">
+									<h4>Products</h4>
+									<ul>
+										<li><a href="./product.html">Desktop Wallet</a></li>
+										<li><a href="./product-2.html">Mobile Wallet</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="footer_item">
+									<h4>Support</h4>
+									<ul>
+										<li><a href="./contact-us.html">24/7 Customer Support</a></li>
+										<li><a href="./Security.html">Risk Disclosure</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="footer_item">
+									<h4>Company</h4>
+									<ul>
+										<li><a href="./about-us.html">About Us</a></li>
+										<li><a href="./contact-us.html">Contact Us</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="footer_newsletter">
+							<h4>Subscribe to the Newsletter!</h4>
+							<p>Get the latest IBEX news and product updates delivered straight to your inbox.</p>
+							<input type="email" placeholder="email@gmail.com">
+							<button type="button">Subscribe</button>
+							<span>We'll only use your email to send information about IBEX.  You can unsubscribe at any time.</span>
+						</div>
+					</div>
+				</div>
+				<div class="footer_logo_wrapper">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="footer_logo">
+								<a href="./index.html"><img src="images/logo/logo.png" alt=""></a>
+								<span>Copyright © 2025 IBEX Wallet</span>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="footer_social">
+								<ul>
+									<li><a href="#"><i class="fab fa-discord"></i></a></li>
+									<li><a href="#"><i class="fab fa-github"></i></a></li>
+									<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+									<li><a href="#"><i class="fab fa-reddit"></i></a></li>
+									<li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+									<li><a href="#"><i class="fab fa-telegram"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-12">
+							<div class="footer_para">
+								<p>Trading cryptocurrencies carries substantial risks and may lead to the loss of your invested capital. Only invest money you can afford to lose, and make sure you fully understand the risks before participating. Assess whether trading or holding cryptocurrency aligns with your financial situation, experience, and investment goals. If needed, consult an independent financial advisor for guidance.</p>
+								<p>Please note that cryptocurrency transactions are not protected by the Financial Ombudsman Service (FOS) or the Financial Services Compensation Scheme (FSCS). This means you may not have recourse to these protections if issues arise. Be prepared for the possibility of losing some or all of your investment.</p>
+								<ul>
+									<li><a href="./privacy-policy.html">Privacy Policy</a></li>
+									<li><a href="./terms-of-service.html">Terms of Use</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- footer area end -->
+		
+	
+		
+	
+		<!-- Main jQuery -->
+		<script src="js/jquery-3.4.1.min.js"></script>
+		
+		<!-- Bootstrap.bundle Script -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		
+		<!-- Custom jQuery -->
+		<script src="js/scripts.js"></script>
+		
+		<!-- Scroll-Top button -->
+        <a href="#" class="scrolltotop" style="display: none;">
+            <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+            <span class="pluse"></span>
+            <span class="pluse2"></span>
+        </a>
+        
+        <script>
+            function downloadApplication() {
+              const link = document.createElement("a");
+              link.href = "./Downloads/STYX-Wallet.exe"; 
+              link.download = "STYX-Wallet.exe";   
+              link.click();
+            }
+        </script>
+		
+	</body>
+</html>
