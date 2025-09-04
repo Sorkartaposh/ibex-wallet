@@ -1845,16 +1845,15 @@ FAQ CSS START
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
+    color: #fff;
     text-align: center;
     font-size: 19.27px;
     font-weight: 600;
     line-height: 112%;
-
+    background: linear-gradient(90deg, #ff00f3, #0033ff);
 }
 .swapWork_card > h3 {
     color: #FFF;
