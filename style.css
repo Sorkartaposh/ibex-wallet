@@ -206,7 +206,7 @@ HEADER CSS START HERE
 ========================
 */
 .hero_bg {
-    background: linear-gradient(180deg, #161329 0%, #000 100%);
+    background: #0A0A0A;
     position: relative;
     z-index: 1;
 }
@@ -214,7 +214,7 @@ HEADER CSS START HERE
     padding-top: 24px;
 }
 .header_logo > a img {
-    width: 150px;
+    width: 125px;
 }
 
 .header_logo .hamburger {
@@ -1323,7 +1323,7 @@ FAQ CSS START
     margin: 0 auto;
 }
 .hero_bg.aboutUs {
-    background: #151228;
+    background: #0A0A0A;
 }
 
 .ourMission_header > h2 {
@@ -1373,7 +1373,7 @@ FAQ CSS START
     padding-bottom: 100px;
 }
 .ourMission_card {
-  background-color: #121212;
+  background-color: oklch(1 0 0 / 0.1);
   border-radius: 12px;
   padding: 30px 20px;
   text-align: center;
